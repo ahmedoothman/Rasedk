@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css?family=Cairo|Changa|El+Messiri&display=swap');
+*{
+    margin:0;
+    padding: 0;
+}
+html{
+    font-size:62.5%;
+}
+body {
+  font-family: "cairo",sans-serif;
+  font-weight: 800;
+  /* font-size:16px; */
+  line-height: 1.7;
+  color: #777; 
+    background: #212222;
+}
+header{
+    background:#212222;
+    border-bottom: 2px solid white;
+}
+.row{
+    max-width: 114rem;
+    margin:0 auto;
+    padding: 1rem;
+    display: flex;
+}
+.nav{
+    width:100%;
+    display:inline;
+}
+.logo{
+    float:right;
+    font-size: 3rem;
+    font-family: "Cairo";
+    font-weight: 900;
+    color: #60aff4;
+}
+.about{
+    float:left;
+    padding-top:.8rem;
+     font-size: 1.8rem;
+    font-family: "Cairo";
+    color: #60aff4;
+
+}
+main{
+    margin-top: 10rem;
+    width: 100%;
+}
+
+.note{
+    background: #3284cc;
+    border-radius: .5rem;
+    width:40%;
+    margin:0 auto;
+    text-align: center;
+    padding: 1rem;
+  font-size: 1.5rem;
+  font-family: "El Messiri";
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+    margin-top: 0rem;
+    animation-name: moveInLeft;
+    animation-duration: .8s;
+    animation-iteration-count: 1;
+    animation-delay: 0s;
+    animation-timing-function: ease-in;
+}
+.row-note{
+    
+}
+.col{
+    justify-content: center;
+    text-align: center;
+    padding: 5rem;
+}
+.credit-tit{
+  font-size: 2rem;
+  font-family: "Changa";
+  color: rgb(255, 236, 231);
+  font-weight: bold;
+    margin-bottom: 0rem;
+}
+.credit{
+    width: 15rem;
+    height: 3rem;
+    border-radius: .4rem;
+    border:none;
+    text-align: center;
+    font-family: "Cairo";
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    
+}
+.final-credit{
+     width: 15rem;
+    height: 10rem;
+    border-radius: .4rem;
+    border:none;
+    text-align: center;
+    font-family: "Cairo";
+    margin-bottom: 2rem;
+    font-size: 5rem;
+    background: white;
+    margin: 0 auto;
+     margin-top: 2rem;
+}
+.miny-note{
+    color:white;
+}
+.center{
+    text-align: center;
+    margin: 0 auto;
+}
+.btn{
+    background: #f2ed9d;
+    width:10rem;
+    padding: 1rem;
+    text-align: center;
+    color:#2a2a2a;
+    border-radius: 1rem;
+    font-size: 1.2rem;
+    margin: 0 auto;
+    cursor: pointer;
+    transition: .2s;
+     
+    
+}
+.btn:hover{
+   transform: translateY(-2px);
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2); 
+}
+@keyframes moveInLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-100px); }
+  80% {
+    transform: translateX(10px); }
+  100% {
+    opacity: 1;
+    transform: translate(0); } }
+@media only screen and (max-width:510px){
+    html{
+        font-size:50%;
+    }
+    .row{
+    max-width: 114rem;
+    margin:0 auto;
+    padding: 1rem;
+    display: block;
+    text-align:center;
+}
+    .col{
+    justify-content: center;
+    text-align: center;
+    padding: 0rem;
+}
+    .span-1-of-2 {
+		width: 100%; 
+
+	}
+    .btn{
+    background: #f2ed9d;
+    width:10rem;
+    padding: 1rem 2.5rem;
+    text-align: center;
+    color:#2a2a2a;
+    border-radius: 1rem;
+    font-size: 1.7rem;
+    margin: 0 auto;
+    cursor: pointer;
+    transition: .2s;
+     
+    
+}
+}

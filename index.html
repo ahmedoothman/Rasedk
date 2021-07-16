@@ -1,0 +1,61 @@
+  <!DOCTYPE html>
+        <html lang="ar" dir="rtl">
+          <head>
+            <meta charset="utf-8">
+            <title>رصيدك</title>
+              <meta name="viewport" content="width=device-width, initial-scale=1.0">
+              <meta name="description" content="احسب تشحن بكام رصيد بعد زيادة اسعار كروت الشحن">
+              <link rel="stylesheet" href="css/style.css">
+              <link rel="stylesheet" href="css/Grid.css">
+              
+             <!-- <link href="https://fonts.googleapis.com/css?family=Cairo|Changa|El+Messiri&display=swap" rel="stylesheet">-->
+
+              <!-- Global site tag (gtag.js) - Google Analytics -->
+              <script async src="https://www.googletagmanager.com/gtag/js?id=UA-163852515-1"></script>
+              <script>
+                    window.dataLayer = window.dataLayer || [];
+                  function gtag(){dataLayer.push(arguments);}
+                  gtag('js', new Date());
+
+                  gtag('config', 'UA-163852515-1');
+                </script>
+
+          </head>
+          <body>
+            <header class="clearfix">
+                <div class="row ">
+              <nav class="nav ">
+                  <h1 class="logo ">رصيدك</h1>
+                  <h3 class="about">عنا</h3>
+                </nav>
+                    </div>
+              </header>
+              
+              <main>
+                  <div class="section">
+                  <div class="row row-note">
+                  <div class="note">تنويه هذه الحسبة لشبكات المحمول فى مصر فقط</div>
+                  
+                  </div>
+              <div class="row">
+                  <div class="col span-1-of-2">
+                    <h1 class="credit-tit">الرصيد الى عايزه </h1>
+                    <input type="number" class="credit" value="" placeholder="0" id="wcredit" onended="calcc()">
+                    <h1 class="credit-tit">الرصيد الى موجود معاك حاليا </h1>
+                      <h2 class="miny-note">(مش لازم)</h2>
+                    <input type="number" class="credit"  value="" placeholder="0" id="ccredit">
+                  </div>
+                  <div class="col span-1-of-2">
+                   <h1 class="credit-tit">المبلغ الى مفروض تدفعه</h1>
+                    <div class="final-credit" id="fcredit">0</div>
+                  </div>
+                  </div>
+                 <div class="row">
+                  <!--  <a class="btn" onclick="calcc()">تم</a> -->
+                    <h2 class="miny-note center ">ملحوظه : ممكن تدفع نص جنيه زيادة على المبلغ او لا على حسب البايع</h2>
+                  </div>
+                      </div>
+              </main>
+              <script src="js/script.js"></script>
+          </body>
+        </html>
