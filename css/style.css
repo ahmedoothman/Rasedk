@@ -66,6 +66,16 @@ main{
     animation-delay: 0s;
     animation-timing-function: ease-in;
 }
+.section{
+
+
+
+}
+.center{
+      background: white;
+      width:70%;
+      border-radius: 5px;
+}
 .row-note{
 
 }
@@ -85,11 +95,12 @@ main{
     width: 15rem;
     height: 3rem;
     border-radius: .4rem;
-    border:none;
+    border:2px solid #b55418;;
     text-align: center;
     font-family: "Cairo";
     margin-bottom: 2rem;
     margin-top: 2rem;
+    background: white;
 
 }
 .final-credit{
