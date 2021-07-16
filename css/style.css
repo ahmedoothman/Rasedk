@@ -11,12 +11,12 @@ body {
   font-weight: 800;
   /* font-size:16px; */
   line-height: 1.7;
-  color: #777; 
-    background: #212222;
+  color: #777;
+    background: #dedede;
 }
 header{
     background:#212222;
-    border-bottom: 2px solid white;
+    border-bottom: 4px solid #b55418;
 }
 .row{
     max-width: 114rem;
@@ -33,14 +33,14 @@ header{
     font-size: 3rem;
     font-family: "Cairo";
     font-weight: 900;
-    color: #60aff4;
+    color:white;
 }
 .about{
     float:left;
     padding-top:.8rem;
      font-size: 1.8rem;
     font-family: "Cairo";
-    color: #60aff4;
+    color: white;
 
 }
 main{
@@ -49,7 +49,7 @@ main{
 }
 
 .note{
-    background: #3284cc;
+    background: #b55418;
     border-radius: .5rem;
     width:40%;
     margin:0 auto;
@@ -67,7 +67,7 @@ main{
     animation-timing-function: ease-in;
 }
 .row-note{
-    
+
 }
 .col{
     justify-content: center;
@@ -77,7 +77,7 @@ main{
 .credit-tit{
   font-size: 2rem;
   font-family: "Changa";
-  color: rgb(255, 236, 231);
+  color: black;
   font-weight: bold;
     margin-bottom: 0rem;
 }
@@ -90,7 +90,7 @@ main{
     font-family: "Cairo";
     margin-bottom: 2rem;
     margin-top: 2rem;
-    
+
 }
 .final-credit{
      width: 15rem;
@@ -106,7 +106,7 @@ main{
      margin-top: 2rem;
 }
 .miny-note{
-    color:white;
+    color:#b55418;
 }
 .center{
     text-align: center;
@@ -123,12 +123,12 @@ main{
     margin: 0 auto;
     cursor: pointer;
     transition: .2s;
-     
-    
+
+
 }
 .btn:hover{
    transform: translateY(-2px);
-  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2); 
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
 }
 @keyframes moveInLeft {
   0% {
@@ -156,7 +156,7 @@ main{
     padding: 0rem;
 }
     .span-1-of-2 {
-		width: 100%; 
+		width: 100%;
 
 	}
     .btn{
@@ -170,7 +170,7 @@ main{
     margin: 0 auto;
     cursor: pointer;
     transition: .2s;
-     
-    
+
+
 }
 }
